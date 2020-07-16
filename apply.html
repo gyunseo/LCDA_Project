@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="apply_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
 
         <!--bootstrap-->
 
@@ -17,9 +18,18 @@
     <body>
         <div class="apply_form">
             <form>
+                <div id="form_title">
+                    엘세데아 지원서
+                </div> 
+                <br>
                 <div class="form-group">
                 <label for="exampleFormControlInput1">이름</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="홍길동">
+                </div>
+                <div class="form-group">
+
+                <label for="exampleFormControlInput1">전화번호</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="01055052576">
                 </div>
                 <div class="form-group">
                 <label for="exampleFormControlSelect1">지원 세션</label>
@@ -34,8 +44,9 @@
                 </div>
                 <div class="form-group">
                 <label for="exampleFormControlTextarea1">포부/운영진에게 하고 싶은 말</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="엘세데아에 뼈를 묻겠습니다!!"></textarea>
                 </div>
+                <button type="submit" class="btn btn-primary mb-2">엘세데아 지원하기!</button>
             </form>
         </div>
 

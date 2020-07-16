@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+   
+}
+img{
+
+    width: 100%;
+
+}
+.item{
+    transition: transform 1.0s, opacity 2s;
+}
+
+.apply_form{
+    display: block;
+    top:25%;
+    position: fixed;
+    left: 25%;
+    width:50%;
+    background-color: aquamarine;
+
+    transition: 0.5s;
+}
+
+.apply_form:hover{
+    background-color: aqua;
+    color:white;
+}
